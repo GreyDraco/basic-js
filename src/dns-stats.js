@@ -33,7 +33,7 @@ function getDNSStats(domains) {
       if (!stats[currentKey]) {
         stats[currentKey] = 1;
       } else {
-        stats[currentKey]++;
+        stats[currentKey] += 1;
       }
     });
   });
